@@ -87,6 +87,11 @@
   .hero-visual{overflow:hidden}
   .contact-card>a:first-child strong{font-size:clamp(21px,6vw,28px)}
 }
+@media(max-width:720px){
+  .header-inner{grid-template-columns:minmax(0,1fr)}
+  .logo,.site-header nav{min-width:0;max-width:100%}
+  .site-header nav{width:100%;overscroll-behavior-x:contain}
+}
 </style>
 </head>
 <body>
